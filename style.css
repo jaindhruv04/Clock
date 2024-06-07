@@ -42,9 +42,16 @@ body {
 }
 
 .seconds {
-    font-size: 50%;
+    font-size: 35%;
     margin-bottom: 2%;
-    margin-left: 2%
+    margin-left: 4%
+}
+
+.hello {
+    position: absolute;
+    top: 32%;
+    right: 33%;
+    font-size: 30%;
 }
 
 .dayDate {
