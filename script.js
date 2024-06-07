@@ -1,4 +1,4 @@
-var buttonColour = document.querySelector(".24-Hour");
+var buttonColour = document.querySelector(".button");
 buttonColour.style.color = "red";
 
 
@@ -10,7 +10,7 @@ function toggle() {
         buttonColour.style.color = "red";
     }
 }
-document.querySelector(". 24-Hour").addEventListener("click", toggle)
+document.querySelector(".button").addEventListener("click", toggle)
 
 function normalTime() {
     const time = new Date();
